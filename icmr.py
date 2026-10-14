@@ -32,7 +32,7 @@ thread.start()
 # ── Config ──────────────────────────────────────────────────────────────────
 HF_INDEX_BASE = os.environ.get(
     "ICMR_HF_INDEX_BASE",
-    "https://huggingface.co/datasets/G0zig/numinfo/resolve/main",
+    "https://huggingface.co/datasets/Noobster1/Icmr/resolve/main",
 ).rstrip("/")
 PARALLELISM = int(os.environ.get("ICMR_PARALLEL", "2"))
 THREADS_PER_CONN = int(os.environ.get("ICMR_THREADS_PER_CONN", "2"))
